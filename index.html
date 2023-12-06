@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn or SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d80a6dd004.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="field">
+                        <i class="fa-solid fa-user"></i>
+                        <input id="nameField" type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-field" >
+                        <i class="fa-solid fa-envelope"></i>
+                        <input id="emailField" type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input id="passwordField" type="password" placeholder="Password">
+                    </div>
+
+                    <p>
+                        Forget password?<a href="#">click here</a>
+                    </p>
+                </div>
+
+                <div class="btn-field">
+                    <button type="button" id="signUpBtn">Sign up</button>
+                    <button type="button" id="signInBtn" class="disable">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src=app.js></script>
+
+</html>
